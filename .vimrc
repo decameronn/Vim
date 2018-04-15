@@ -1,19 +1,17 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-" set rtp+=~/.vim/bundle/Vundle.vim		" UNIX [on Win as well]
-" call vundle#begin()					" UNIX [on Win as well]
-set rtp+=~/.vim/bundle/Vundle.vim/		" Windows
-call vundle#begin('~/.vim/bundle/')		" Windows
+" set rtp+=~/.vim/bundle/Vundle.vim     " UNIX
+" call vundle#begin()			              " UNIX
+set rtp+=~/.vim/bundle/Vundle.vim/	    " Windows
+call vundle#begin('~/.vim/bundle/')	    " Windows
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'scrooloose/nerdtree'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'tpope/vim-fugitive'
+" Plugin 'scrooloose/nerdtree'
+Plugin 'tpope/vim-fugitive'             " git wrapper
 Plugin 'bling/vim-airline'
-Plugin 'easymotion/vim-easymotion'
-" Plugin 'gnattishness/cscope_maps'       " auto-complete plugin (Richard)
+" Plugin 'gnattishness/cscope_maps'     " auto-complete
 call vundle#end()                       " required
 
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
@@ -49,9 +47,9 @@ set mouse=a
 " *****************************************************************************
 set t_Co=256
 syntax on
-colorscheme koehler			            " color theme
-set showmatch 			                " highlight matching braces
-" set number  				            " turn line numbers on
+colorscheme koehler		" color theme
+set showmatch 			  " highlight matching braces
+" set number  				" turn line numbers on
 " set comments=sl:/*,mb:\ *,elx:\ */   	" intelligent comments
 
 " Miscelaneous
@@ -59,16 +57,14 @@ set showmatch 			                " highlight matching braces
 filetype plugin indent on
 set visualbell
 set backspace=indent,eol,start
-set hidden				            " Allow hidden buffers
-set ttyfast				            " Rendering
-set laststatus=2		            " Status bar
+set hidden				          " Allow hidden buffers
+set ttyfast				          " Rendering
+set laststatus=2		        " Status bar
 set showmode				        " Last line 
-set showcmd				            " Show previous commands
-set guioptions-=m                   " remove menubar
-set guioptions-=T  			        " remove toolbar
-set guioptions-=r			        " remove right-hand scroll bar
-set guioptions-=L  			        " remove left-hand scroll bar
-set nohlsearch				        " turn off search highlighting
-set guifont=Consolas:h14            " default font
-set ruler			                " show file stats
-map <F5> :NERDTreeToggle<CR>
+set showcmd				          " Show previous commands
+set guioptions-=m           " remove menubar
+set guioptions-=T  			    " remove toolbar
+set guioptions-=r			      " remove right-hand scroll bar
+set guioptions-=L  			    " remove left-hand scroll bar
+set nohlsearch				      " turn off search highlighting
+set guifont=Consolas:h14    " default font
