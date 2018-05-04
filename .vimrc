@@ -28,11 +28,9 @@ set showmatch
 " UTF-8 encoding
 " *****************************************************************************
 set enc=utf-8
-set fenc=utf-8
 set autoindent      "Keep indentation from previous line
 set smartindent     "Automatically inserts indentation in some cases
 set cindent         "Like smartindent, but stricter and more customisable	
-set cindent         
 
 " Tab-width & spaces instead of tabs & mouse:
 " *****************************************************************************
@@ -49,8 +47,8 @@ set t_Co=256
 syntax on
 colorscheme koehler		" color theme
 set showmatch 			  " highlight matching braces
-" set number  				" turn line numbers on
-" set comments=sl:/*,mb:\ *,elx:\ */   	" intelligent comments
+set number  				" turn line numbers on
+set comments=sl:/*,mb:\ *,elx:\ */   	" intelligent comments
 
 " Miscelaneous
 " *****************************************************************************
