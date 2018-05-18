@@ -19,7 +19,7 @@ call vundle#end()                       " required
 
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 " let g:loaded_youcompleteme = 1    " disable YouCompleteMe at Vim startup
-let g:airline_powerline_fonts = 1
+" let g:airline_powerline_fonts = 1
 " let g:Powerline_stl_path_style = 'short'    " no full path to file
 map <F4> :NERDTreeToggle<CR>
 autocmd vimenter * NERDTree         " open NERDTree at startup
@@ -30,7 +30,6 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase
-set showmatch
 
 " Encoding & indenting
 " ****************************************************************************
