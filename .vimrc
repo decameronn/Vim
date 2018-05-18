@@ -22,7 +22,7 @@ let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 " let g:airline_powerline_fonts = 1
 " let g:Powerline_stl_path_style = 'short'    " no full path to file
 map <F4> :NERDTreeToggle<CR>
-autocmd vimenter * NERDTree         " open NERDTree at startup
+" autocmd vimenter * NERDTree         " open NERDTree at startup
 
 " Search functions
 " ****************************************************************************
