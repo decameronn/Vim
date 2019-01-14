@@ -48,9 +48,10 @@ set mouse=a
 set t_Co=256                           " number of colors
 syntax on
 colorscheme visualstudio
-" colorscheme manuscript
-set guifont=Consolas:h15
-set linespace=-1
+" colorscheme decameron
+" set guifont=Consolas:h15  " this is Windows syntax
+set guifont=Consolas\ 14    " this is Linux syntax
+" set linespace=-1
 
 set showmatch 			                  " highlight matching braces
 set number  				                  " turn line numbers on
