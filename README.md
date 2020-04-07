@@ -1,5 +1,5 @@
 # Vim
-Vim configuration files and folders:
+Vim configuration files:
 
 - Vundle
 - nerdtree
