@@ -5,7 +5,7 @@
 " Based upon the pyte color scheme by Henning Hasemann
 "
 " 2010/11/16: Version 1.0
-"
+
 
 set background=light
 
@@ -87,5 +87,3 @@ hi DiffChange   guifg=NONE      guibg=#e0e0e0   gui=bold
 hi DiffText     guifg=NONE      guibg=#f0c8c8   gui=bold
 hi DiffAdd      guifg=NONE      guibg=#c0e0d0   gui=bold
 hi DiffDelete   guifg=NONE      guibg=#f0e0b0   gui=bold
-
-
